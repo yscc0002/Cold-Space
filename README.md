@@ -1,14 +1,15 @@
 <img src="MEDIA/PATCH.png" width="200">
 
-# Monitoreo de Temperatura en Dormitorio
+# Feliz Año Nuevo 2024
 
-En este proyecto, investigué los rangos óptimos para garantizar una buena noche de sueño. Sin embargo, me enfrenté al desafío de no contar con una herramienta para visualizar estos valores. Para solucionar esto, diseñé un circuito utilizando Arduino, que incluye 3 LEDs (azul para frío, amarillo para cálido, rojo para caliente), un sensor de temperatura (TMP36) para medir la temperatura en mi dormitorio, y un microcontrolador (Arduino Uno R3) como el cerebro del circuito. La visualización es analógica, permitiéndome determinar la temperatura según el color del LED que se encienda, de acuerdo con los rangos que especifique usted.
+Un día desperté e imaginé tener una barra de progreso que marque el porcentaje completado del año, basado en el 100%, sobre una pizarra que tengo en mi dormitorio. Esta es una manera visual de ver cómo avanza el año y algo que me motiva a seguir. Para abordar esto, diseñé algunas fórmulas matemáticas que no sabía cómo hacer, pero después de varios minutos las ideé y las llevé a código. Además, distribuí ese porcentaje numérico del año completo en una barra dentro de un LCD 16x2. Estos datos son enviados al puerto serie desde un script de Python y son leídos por el Arduino para procesarlos y visualizarlos como un progreso de barra. Pero este proyecto tiene un elemento adicional: cuando sea Año Nuevo 2024, mostrará "Feliz Año Nuevo" en inglés en la pantalla LCD. Hasta aquí llega el código en la LCD.
 
-# Detalles Adicionales
-También desarrollé un script para copiar los datos enviados por el microcontrolador al puerto serie. Estos datos pueden pegarse en diversas plataformas multiplataforma, como WhatsApp Web, permitiéndome enviar los datos a mi propio chat de WhatsApp cada segundo (según lo especificado en Arduino). Esta funcionalidad también se puede aplicar a documentos de Google Drive y otras plataformas accesibles desde diferentes dispositivos.
+# Componentes
+- Arduino Uno R3 (Cerebro)
+- LCD 16x2 (Pantalla)
+- Piezoeléctrico (Reproducir sonido alegre)
 
 # Resultados
 Como resultado de este proyecto:
-- Mejoré la calidad de mi sueño al poder visualizar fácilmente la temperatura desde cualquier parte de mi dormitorio.
-- Incluso cuando no estoy en casa, puedo monitorear los datos numéricos al enviarlos a mi propio chat de WhatsApp.
-
+- Visualizar el progreso del año sin tener que hacer cálculos, todo de manera visual.
+- Recibir una bienvenida tecnológica al 2024.
