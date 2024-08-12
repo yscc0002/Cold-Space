@@ -1,15 +1,12 @@
 <img src="MEDIA/PATCH.png" width="200">
 
-# Feliz Año Nuevo 2024
+# Cold Space
 
-Un día desperté e imaginé tener una barra de progreso que marque el porcentaje completado del año, basado en el 100%, sobre una pizarra que tengo en mi dormitorio. Esta es una manera visual de ver cómo avanza el año y algo que me motiva a seguir. Para abordar esto, diseñé algunas fórmulas matemáticas que no sabía cómo hacer, pero después de varios minutos las ideé y las llevé a código. Además, distribuí ese porcentaje numérico del año completo en una barra dentro de un LCD 16x2. Estos datos son enviados al puerto serie desde un script de Python y son leídos por el Arduino para procesarlos y visualizarlos como un progreso de barra. Pero este proyecto tiene un elemento adicional: cuando sea Año Nuevo 2024, mostrará "Feliz Año Nuevo" en inglés en la pantalla LCD. Hasta aquí llega el código en la LCD.
+República Dominicana, un país tropical ubicado en el Caribe, donde el calor puede ser incómodo dependiendo de la estación. En el verano de 2023, me sorprendió ver en los análisis de la NASA que había sido uno de los veranos más calurosos en la Tierra. Quise conocer la temperatura de mi habitación mientras dormía, y ya tenía mi kit de Arduino (Starter Kit Multilanguage). Con muchas ganas, diseñé rápidamente mi circuito con los siguientes componentes para obtener la lectura de la temperatura de mi habitación.
 
 # Componentes
 - Arduino Uno R3 (Cerebro)
-- LCD 16x2 (Pantalla)
-- Piezoeléctrico (Reproducir sonido alegre)
+- x3 Ledes (Azul, Amarillo, Rojo)
+- Sensor de Temperatura (TMP36)
 
-# Resultados
-Como resultado de este proyecto:
-- Visualizar el progreso del año sin tener que hacer cálculos, todo de manera visual.
-- Recibir una bienvenida tecnológica al 2024.
+> Revisa los folders y subfolders, estan todos los codigos de Arduinos bien documentados, si tienes dudas escribeme por alguna de mis redes.
