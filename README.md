@@ -10,3 +10,7 @@ República Dominicana, un país tropical ubicado en el Caribe, donde el calor pu
 - Sensor de Temperatura (TMP36)
 
 > Revisa los folders y subfolders, estan todos los codigos de Arduinos bien documentados, si tienes dudas escribeme por alguna de mis redes.
+
+---
+
+© 2023. Todos los códigos e imágenes dentro de este repositorio han sido creados por mí. Todos los derechos reservados.
