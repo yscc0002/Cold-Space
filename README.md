@@ -1,4 +1,4 @@
-<img src="MEDIA/PATCH.png" width="200">
+<img src="MEDIA/PATCH.png" width="300">
 
 # Cold Space
 
